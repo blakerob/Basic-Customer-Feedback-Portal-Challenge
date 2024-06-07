@@ -1,0 +1,28 @@
+<script>
+    // U92725213
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Feedback Portal</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="feedback-form">
+        <input type="text" id="customer-name" placeholder="Your Name" required>
+        <select id="customer-rating" required>
+            <option value="">Rate us</option>
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+        </select>
+        <textarea id="customer-comments" placeholder="Your Comments" required></textarea>
+        <button type="submit">Submit Feedback</button>
+    </form>
+    <div id="feedback-display"></div>
+</body>
+</html>
